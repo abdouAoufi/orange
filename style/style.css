@@ -135,3 +135,14 @@ nav ul li button {
 .cart>div>p {
     margin-top: 12px;
 }
+
+.gallery{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+}
+
+.gallery img{
+  width: 325px;
+}
